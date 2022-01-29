@@ -4,4 +4,5 @@ module.exports = {
   // const params = ["Alex", "Easter 2017 (RARE)", "Flag", "Safed"];
   // el resultado es: "Alex sent gift -> Ash (Rare) [Head] to -> Safed"
   server_gm_gift_text: "$? sent gift -> $? [$?] to -> $?",
+  test: ""
 }
