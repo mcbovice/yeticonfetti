@@ -2248,7 +2248,7 @@ myRank(a) {
     var self = this;
     return new Promise(function(resolve, reject) {
         self.connection.getConnection().then(conn => {
-            conn.query('select rank from users where IdAcc = ?', [a]).then(rows => {
+            conn.query('SELECT rank FROM users WHERE IdAcc = ?', [a]).then(rows => {
 conn.release();
                 if (rows[0].length > 0){
                     return resolve(rows); 
