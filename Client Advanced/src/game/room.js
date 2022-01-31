@@ -98,7 +98,7 @@ module.exports = class Room {
         var self = this;
         var maxlng = 150;
         if (account.last_chat == msj) {//Codigo De Spam
-            account.sendMessage(new Message.alertResponse("Hola "+account.player.game_id, "Tu Mensaje Esta Interpretado Como Spam, Y Esto No Esta Permitido Para Este Servidor."));
+            account.sendMessage(new Message.alertResponse("Hello, "+account.player.game_id, "Your message is interpreted as spam, and this is not allowed for this server."));
             return null;
         }
         if (account.player.is_muted === true || account.player.is_muted >= Date.now()) {
