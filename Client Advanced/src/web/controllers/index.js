@@ -101,7 +101,7 @@ router.get('/rr', function (req, res) {
     }
     if (req.query.r == 8) {
         req.db.connection.getConnection().then(conn => {
-            conn.query('SELECT Id, Name, members, rank, img, fondo, about FROM guild')
+            conn.query('SELECT guild.Id, guild.Name, guild.members, guild.rank, guild.img, guild.fondo, guild.about FROM guild')
                 .then(rows1 => {
                 conn.release();
                 if (rows1[0].length > 0) {

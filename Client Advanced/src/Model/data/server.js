@@ -7,7 +7,7 @@ const defaultMessage = {
     type: ChatTypes.TYPE.BUGLE
 }
 const welcomeMessage = {
-    message: 'Welcome to SocialBound',
+    message: 'Welcome to the Yeti Confetti Club! Enjoy the Arctic!',
     player_name: '',
     type: ChatTypes.TYPE.BUGLE
 }
@@ -56,13 +56,8 @@ module.exports = {
                 {...welcomeMessage},
                 { ...defaultMessage },
                 {
-                    message: 'I am a second welcome message',
-                    player_name: '',
-                    type: ChatTypes.TYPE.BUGLE
-                },
-                {
-                    message: 'Hello all, I am the message of a gm programmed from a fictitious database.',
-                    player_name: 'Alex',
+                    message: 'Hello all, as a reminder cheating is prohibited. Anyone caught cheating will be banned.',
+                    player_name: 'Xueren',
                     type: ChatTypes.TYPE.GM
                 }
             ]

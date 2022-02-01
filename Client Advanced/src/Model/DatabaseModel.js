@@ -81,7 +81,7 @@ module.exports = class DataBase extends Connection {
         var self = this;
         return new Promise(function (resolve, reject) {
             self.connection.getConnection().then(conn => {
-                conn.query('SELECT m.Id, m.Job, g.Name, g.points from guild_member m INNER JOIN guild g ON m.Id = g.Id WHERE m.UserId = ?', [id])
+                conn.query('SELECT m.Id, m.Job, g.Name, g.points FROM guild_member m INNER JOIN guild g ON m.Id = g.Id WHERE m.UserId = ?', [id])
                     .then(rows => {
                         conn.release();
                         if (rows[0].length > 0)
@@ -2248,7 +2248,7 @@ myRank(a) {
     var self = this;
     return new Promise(function(resolve, reject) {
         self.connection.getConnection().then(conn => {
-            conn.query('select rank from users where IdAcc = ?', [a]).then(rows => {
+            conn.query('SELECT users.rank FROM users WHERE users.IdAcc = ?', [a]).then(rows => {
 conn.release();
                 if (rows[0].length > 0){
                     return resolve(rows); 
