@@ -18109,7 +18109,7 @@
             a = c + a;
         return a
     }
-    ;var AUDIO_ARMOR_BLAST = "11blast", AUDIO_ARMOR_FIRE = "11fire", AUDIO_ARMOR_FIRE2 = "12fire", AUDIO_MAGE_FIRE = "21fire", AUDIO_MAGE_BLAST = "22blast", AUDIO_NAK_FIRE1 = "31fire", AUDIO_NAK_BLAST1 = "31blast", AUDIO_NAK_FIRE2 = "32fire", AUDIO_NAK_BLAST2 = "32blast", AUDIO_DINO_FIRE = "42fire", AUDIO_DINO_BLAST = "42blast", AUDIO_BIGFOOT_FIRE1 = "51fire", AUDIO_BIGFOOT_BLAST1 = "51blast", AUDIO_BIGFOOT_FIRE2 = "52fire", AUDIO_BIGFOOT_BLAST2 = "52blast", AUDIO_BOOMER_FIRE = "62fire", AUDIO_BOOMER_BLAST = "62blast", AUDIO_RAON1_FIRE = "71fire", AUDIO_RAON1_BLAST = "71blast", AUDIO_RAON2_FIRE = "72fire", AUDIO_RAON2_BLAST = "72blast", AUDIO_RAON_WALKER = "71move", AUDIO_LIGHTNING_FIRE = "82fire", AUDIO_LIGHTNING_BLAST = "82blast", AUDIO_JD_FIRE = "91fire", AUDIO_JD_BLAST1 = "91blast", AUDIO_JD_BLAST2 = "92blast", AUDIO_ASATE_FIRE = "10s1fire", AUDIO_ASATE_KNIGHT_BLAST = "10s1blast", AUDIO_ICE_BLAST = "111blast", AUDIO_ICE_FIRE = "111fire", AUDIO_ICE_BLAST2 = "112blast", AUDIO_TURTLE_FIRE = "121fire", AUDIO_TURTLE_BLAST = "121blast", AUDIO_GRUB_FIRE = "131fire", AUDIO_GRUB_BLAST = "132blast", AUDIO_DRAGON_FIRE = "141fire", AUDIO_DRAGON_BLAST = "142blast", AUDIO_KNIGHT_FIRE = "15s1fire", AUDIO_ADUKA_FIRE = "161fire", AUDIO_ADUKA_FIRE2 = "162fire", AUDIO_BUTTON_SELECT = "bpush1", AUDIO_BUTTON_SELECT2 = "bselect1", AUDIO_MY_TURN = "turn", AUDIO_TURN_TICK = "turntick1s", AUDIO_GOLD = "gold", AUDIO_WIND = "4moon", AUDIO_USE_ITEM = "dual_snd", AUDIO_NOTIFICATION = "noti.mp3", AUDIO_GAME_START = "start.mp3", AUDIO_LOGIN = "login.mp3", AUDIO_BROKER = "broker.mp3", AUDIO_DING = "ding.mp3", AUDIO_TOUCH = "touch2.mp3", AUDIO_WAIT = "wait.mp3", AUDIO_MUSIC_CHANNEL = "dbChannel2020.ogg", AUDIO_MUSIC_ROOM = "dbWaiting2020.ogg", AUDIO_STAGE_MUSICS = "stage1.mp3 stage2.mp3 stage3.mp3 stage4.mp3 stage5.mp3 stage6.mp3 Stage7.mp3 Stage8.mp3 Stage9.mp3 dbparty.mp3 Stage11.mp3 EventMusic0.mp3 EventMusic2.mp3 EventMusic3.mp3 EventMusic4.mp3 EventMusic5.mp3 EventMusic6.mp3 dbBattleMiramoTown.mp3 dbBattleMiramoTown.mp3".split(" "), AUDIO_MUSIC_SUDDEN = "sudden.mp3", AUDIO_WIN = "result_win.mp3", AUDIO_LOSE = "result_lose.mp3", g_dragonAudio;
+    ;var AUDIO_YETI_BLAST = "11blast", AUDIO_YETI_FIRE = "11fire", AUDIO_YETI_FIRE2 = "12fire", AUDIO_MAGE_FIRE = "21fire", AUDIO_MAGE_BLAST = "22blast", AUDIO_NAK_FIRE1 = "31fire", AUDIO_NAK_BLAST1 = "31blast", AUDIO_NAK_FIRE2 = "32fire", AUDIO_NAK_BLAST2 = "32blast", AUDIO_DINO_FIRE = "42fire", AUDIO_DINO_BLAST = "42blast", AUDIO_BIGFOOT_FIRE1 = "51fire", AUDIO_BIGFOOT_BLAST1 = "51blast", AUDIO_BIGFOOT_FIRE2 = "52fire", AUDIO_BIGFOOT_BLAST2 = "52blast", AUDIO_BOOMER_FIRE = "62fire", AUDIO_BOOMER_BLAST = "62blast", AUDIO_RAON1_FIRE = "71fire", AUDIO_RAON1_BLAST = "71blast", AUDIO_RAON2_FIRE = "72fire", AUDIO_RAON2_BLAST = "72blast", AUDIO_RAON_WALKER = "71move", AUDIO_LIGHTNING_FIRE = "82fire", AUDIO_LIGHTNING_BLAST = "82blast", AUDIO_JD_FIRE = "91fire", AUDIO_JD_BLAST1 = "91blast", AUDIO_JD_BLAST2 = "92blast", AUDIO_ASATE_FIRE = "10s1fire", AUDIO_ASATE_KNIGHT_BLAST = "10s1blast", AUDIO_ICE_BLAST = "111blast", AUDIO_ICE_FIRE = "111fire", AUDIO_ICE_BLAST2 = "112blast", AUDIO_TURTLE_FIRE = "121fire", AUDIO_TURTLE_BLAST = "121blast", AUDIO_GRUB_FIRE = "131fire", AUDIO_GRUB_BLAST = "132blast", AUDIO_DRAGON_FIRE = "141fire", AUDIO_DRAGON_BLAST = "142blast", AUDIO_KNIGHT_FIRE = "15s1fire", AUDIO_ADUKA_FIRE = "161fire", AUDIO_ADUKA_FIRE2 = "162fire", AUDIO_BUTTON_SELECT = "bpush1", AUDIO_BUTTON_SELECT2 = "bselect1", AUDIO_MY_TURN = "turn", AUDIO_TURN_TICK = "turntick1s", AUDIO_GOLD = "gold", AUDIO_WIND = "4moon", AUDIO_USE_ITEM = "dual_snd", AUDIO_NOTIFICATION = "noti.mp3", AUDIO_GAME_START = "start.mp3", AUDIO_LOGIN = "login.mp3", AUDIO_BROKER = "broker.mp3", AUDIO_DING = "ding.mp3", AUDIO_TOUCH = "touch2.mp3", AUDIO_WAIT = "wait.mp3", AUDIO_MUSIC_CHANNEL = "dbChannel2020.ogg", AUDIO_MUSIC_ROOM = "dbWaiting2020.ogg", AUDIO_STAGE_MUSICS = "stage1.mp3 stage2.mp3 stage3.mp3 stage4.mp3 stage5.mp3 stage6.mp3 Stage7.mp3 Stage8.mp3 Stage9.mp3 dbparty.mp3 Stage11.mp3 EventMusic0.mp3 EventMusic2.mp3 EventMusic3.mp3 EventMusic4.mp3 EventMusic5.mp3 EventMusic6.mp3 dbBattleMiramoTown.mp3 dbBattleMiramoTown.mp3".split(" "), AUDIO_MUSIC_SUDDEN = "sudden.mp3", AUDIO_WIN = "result_win.mp3", AUDIO_LOSE = "result_lose.mp3", g_dragonAudio;
     function AudioInit() {
         g_dragonAudio = new DragonAudio;
         g_dragonAudio.PreloadAudios([AUDIO_LOGIN, AUDIO_BROKER, AUDIO_BUTTON_SELECT, AUDIO_BUTTON_SELECT2, AUDIO_GAME_START, AUDIO_MY_TURN, AUDIO_TURN_TICK])
@@ -18138,74 +18138,55 @@
                 x: 697
             }
         },
-        armor: {
-            file: "Armor2D",
+        YETI: {
+            file: "Yeti2D",
             normal: {
-                g: [[36, 40, 21, 37, 31, 14], 19]
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             move: {
-                g: [[36, 40, 21, 37, 31, 14], [36, 39, 21, 36, 31, 13], [36, 39, 21, 36, 31, 14], 3, [36, 38, 21, 35, 31, 14], 6, [36, 39, 21, 36, 31, 15], 2, [36, 39, 21, 36, 31, 14], 1],
-                x: 740
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             wnormal: {
-                g: [[36, 38, 21, 35, 33, 14], 1, [35, 38, 20, 35, 32, 14], 1, [35, 39, 20, 36, 32, 15], [35, 39, 20, 36, 32, 14], 9, [36, 39, 21, 36, 33, 14], 1, [36, 38, 21, 35, 33, 14], 2],
-                y: 41
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             wmove: {
-                g: [[36, 38, 21, 35, 33, 14, 690, 41], [36, 38, 21, 35, 33, 14], 1, [36, 38, 21, 35, 32, 13], 1, [36, 39, 21, 36, 32, 14], [37, 39, 22, 36, 33, 13], 7, [36, 39, 21, 36, 32, 13], 1, [36, 39, 21, 36, 32, 14], [36, 38, 21, 35, 32, 13], 1, [36, 38, 21, 35, 32, 14]],
-                x: 727,
-                y: 41
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             unmove: {
-                g: [[36, 40, 21, 37, 31, 14], [37, 40, 22, 37, 32, 14], [36, 39, 21, 36, 32, 14], [35, 39, 20, 36, 32, 14], [36, 39, 21, 36, 32, 14], [37, 39, 22, 36, 32, 13], [35, 39, 21, 36, 31, 14], [35, 39, 21, 36, 32, 15], [35, 39, 20, 36, 32, 15], [35, 39, 20, 36, 32, 14], [36, 39, 21, 36, 32, 14], [37, 39, 22, 36, 32, 13], [36, 39, 22, 36, 32, 14], [35, 39, 21, 36, 31, 15], [35, 39, 21, 36, 32, 15], [35, 39, 20, 36, 32, 14], [35, 39, 21, 36, 32, 14], [36, 39, 21, 36, 31, 14], 1, [36, 40, 21, 37, 31, 14]],
-                y: 81
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             fire1: {
-                g: [[35, 40, 20, 37, 30, 15], [44, 42, 27, 39, 40, 18], [48, 48, 29, 45, 44, 24], [53, 51, 35, 48, 49, 27], [55, 53, 38, 50, 51, 29], [51, 52, 35, 49, 47, 27], [51, 51, 35, 48, 47, 26], [50, 49, 34, 46, 45, 24], [33, 39, 18, 36, 29, 14], [33, 40, 18, 37, 29, 14]],
-                x: 734,
-                y: 81
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             fire2: {
-                g: [[33, 40, 18, 37, 29, 14], [33, 40, 18, 37, 29, 15], 1, [32, 40, 17, 37, 29, 15], [32, 40, 17, 37, 30, 15], [33, 40, 17, 37, 30, 16], 1, [32, 40, 16, 37, 29, 16], [32, 39, 16, 36, 30, 16], 1, [33, 39, 16, 36, 30, 16], 1, [32, 38, 16, 35, 29, 16], [36, 39, 20, 35, 31, 13], [40, 39, 24, 35, 33, 12], [39, 39, 23, 35, 32, 12], [38, 39, 22, 35, 32, 13], [37, 39, 20, 35, 31, 13], [36, 39, 19, 35, 31, 13], [34, 39, 18, 35, 30, 14], [34, 39, 18, 36, 29, 14], [35, 39, 19, 36, 30, 14], 1, [35, 39, 20, 36, 31, 13], [36, 40, 21, 37, 31, 14]],
-                y: 135
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             item: {
-                g: [[35, 39, 20, 36, 31, 14], 1, [34, 39, 19, 36, 30, 15], [34, 38, 19, 35, 30, 14], 2, [34, 38, 19, 35, 30, 15], [34, 37, 19, 34, 30, 14], 1, [33, 37, 18, 34, 29, 14], [33, 39, 17, 36, 30, 15], [33, 39, 18, 36, 30, 15], [33, 39, 18, 36, 29, 15], [34, 38, 19, 35, 29, 14], [34, 39, 19, 36, 29, 14], [33, 40, 18, 37, 29, 14], [33, 40, 18, 37, 29, 15], [33, 39, 18, 36, 29, 15], 1, [36, 40, 21, 37, 32, 15, 846, 135]],
-                x: 883,
-                y: 135
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             ifire: {
                 d: "fire1"
             },
             sfire: {
-                g: [[33, 40, 18, 37, 28, 15], 1, [33, 40, 18, 37, 29, 15], [33, 40, 18, 37, 29, 16], [32, 40, 17, 37, 28, 16], [33, 40, 17, 37, 28, 16], [33, 40, 17, 37, 29, 17], 1, [32, 39, 16, 36, 28, 17], [32, 39, 16, 36, 29, 17], [33, 39, 16, 36, 29, 17], 1, [32, 38, 16, 36, 28, 16], [38, 39, 21, 37, 32, 15], [62, 53, 46, 51, 56, 28], [58, 51, 42, 49, 52, 26], [63, 55, 47, 53, 58, 30], [67, 63, 51, 61, 63, 38], [68, 64, 51, 62, 64, 39], [69, 78, 53, 68, 66, 45], [78, 67, 58, 60, 71, 37], [107, 91, 49, 58, 62, 35], [34, 39, 18, 37, 30, 15], [34, 39, 19, 37, 30, 14], [36, 40, 21, 37, 31, 14]],
-                y: 176
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             fdamage: {
-                g: [[34, 38, 11, 36, 31, 16], [37, 40, 9, 38, 33, 18], [40, 41, 9, 39, 37, 18], [41, 42, 9, 40, 37, 18], [41, 42, 9, 40, 37, 19], [39, 41, 9, 39, 35, 18], [37, 40, 9, 38, 33, 17], [34, 39, 9, 37, 32, 17], [33, 39, 11, 37, 30, 17], [38, 39, 15, 37, 32, 15], [47, 38, 19, 36, 32, 14], [56, 40, 23, 37, 31, 14], [64, 43, 25, 40, 31, 17], [70, 44, 25, 41], [70, 43, 23, 40, 31, 16], [71, 41, 21, 38, 31, 15], [71, 40, 19, 37, 30, 14], [70, 39, 17, 36, 30, 14], [71, 39, 16, 36, 31, 14], [35, 38, 15, 35, 31, 14], [35, 38, 16, 35, 31, 14], [36, 38, 18, 35, 31, 14], [37, 39, 20, 36, 31, 14], [36, 39, 20, 36, 30, 14], [36, 40, 21, 37, 30, 14, 1127, 176]],
-                y: 268
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             bdamage: {
-                g: [[37, 40, 24, 38, 31, 14], [39, 41, 29, 39, 32, 14], [40, 42, 33, 40, 31, 12], [42, 43, 35, 41, 31, 12], [41, 42, 34, 40, 31, 12], [39, 42, 32, 40, 31, 13], [39, 41, 31, 39, 32, 13], [39, 41, 29, 39, 32, 14], [38, 43, 26, 40, 31, 17], [43, 43, 29, 40, 37, 18], [47, 42, 32, 39, 43, 19], [50, 41, 34, 38, 47, 19], [55, 42, 36, 39, 53, 21], [60, 42, 38, 39, 57, 21], [65, 42, 41, 39, 63, 20], [51, 43, 26, 40, 50, 21], [52, 45, 27, 42, 49, 23], [52, 47, 29, 44, 49, 24], [54, 47, 33, 44, 50, 23], [41, 47, 21, 44, 35, 23], [43, 46, 25, 43, 37, 21], [37, 39, 20, 36, 31, 13], 1, [36, 39, 20, 36, 31, 13], [36, 40, 21, 37, 31, 14, 1127, 176]],
-                y: 313
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             drop: {
-                g: [[34, 40, 19, 37, 30, 14], [35, 40, 20, 37, 31, 14], [34, 40, 20, 37, 30, 14], [35, 40, 21, 37, 30, 14], 3, [34, 40, 20, 37, 30, 14], [35, 40, 20, 37, 30, 14], [34, 40, 19, 37, 30, 14], [34, 40, 19, 37, 31, 14], [33, 40, 18, 37, 30, 15], [33, 40, 17, 37, 30, 15], 3, [34, 40, 18, 37, 31, 15], [33, 40, 18, 37, 31, 14], [33, 40, 18, 37, 30, 14], [34, 40, 19, 37, 31, 14]],
-                x: 1101,
-                y: 313
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             dead: {
-                g: [[41, 50, 17, 43], 1, [41, 51, 17, 44], 9, [41, 50, 17, 43], 7],
-                x: 1197,
-                y: 81
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             emotion1: {
-                g: [[36, 40, 21, 37, 31, 14, 703, 0], [36, 39, 21, 36, 31, 13], 1, [36, 38, 21, 35, 31, 13], [37, 38, 22, 35, 32, 13], [37, 37, 22, 34, 32, 13], [37, 37, 22, 34, 31, 13], [37, 37, 22, 34, 31, 14], 1, [37, 36, 22, 33, 31, 13], 1, [37, 36, 22, 33, 32, 13], [36, 36, 21, 33, 32, 14], 1, [38, 37, 21, 33, 32, 14], [45, 38, 23, 33, 33, 14], [52, 41, 26, 33, 36, 13], [62, 46, 30, 38, 44, 15], [69, 53, 34, 43, 51, 17], [74, 55, 38, 44, 54, 16], [75, 55, 36, 44, 48, 14], [76, 55, 38, 43, 48, 13], [79, 56, 40, 42, 49, 13], [82, 53, 41, 39, 49, 12], [85, 52, 43, 37, 51, 12], [89, 51, 45, 36, 53, 13], [93, 51, 45, 35, 53, 12], [95, 51, 48, 36, 56, 13], [37, 39, 22, 36, 31, 13], [36, 39, 21, 36, 31, 13]],
-                y: 361
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             bfire1: {
-                g: [[34, 40, 19, 37, 29, 14], 19],
-                x: 1406
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             bfire2: {
                 d: "bfire1"
@@ -18217,14 +18198,10 @@
                 d: "bfire1"
             },
             shock: {
-                g: [[45, 40, 17, 37, 36, 16], [50, 45, 21, 40, 41, 20], [43, 39, 15, 37, 35, 17], [47, 41, 17, 38, 37, 18], [47, 41, 15, 37, 35, 17], [49, 39, 14, 37, 34, 17], [55, 40, 17, 38, 37, 18], [54, 40, 14, 38, 34, 18], [53, 39, 11, 37, 30, 17], [46, 40, 13, 38, 30, 16], [51, 40, 17, 38, 31, 15], [55, 40, 20, 37, 31, 13], [60, 40, 22, 37, 31, 13], [38, 39, 23, 36, 30, 12], [37, 39, 23, 36, 30, 13], [36, 39, 22, 36, 30, 13], [36, 39, 22, 36, 31, 13], [36, 39, 21, 36, 29, 13], [36, 39, 21, 36, 30, 13], [35, 40, 20, 37, 30, 14]],
-                x: 1164,
-                y: 176
+                g: [[36, 40, 21, 37, 31, 14], 18]
             },
             ice: {
-                g: [[48, 40, 10, 38, 32, 18]],
-                x: 2037,
-                y: 81
+                g: [[36, 40, 21, 37, 31, 14], 18]
             }
         },
         mage: {
@@ -20157,7 +20134,7 @@
       , SUDDEN_DEATH_BIGBOMB = 2
       , SUDDEN_DEATH_SS = 3
       , MOBILE = {
-        ARMOR: 0,
+        YETI: 0,
         ICE: 1,
         ADUKA: 2,
         LIGHTNING: 3,
@@ -20181,15 +20158,15 @@
         FROG: 21,
         KALSIDDON: 22
     }
-      , SELECTABLE_MOBILES = [MOBILE.ARMOR, MOBILE.ICE, MOBILE.ADUKA, MOBILE.LIGHTNING, MOBILE.BIGFOOT, MOBILE.JD, MOBILE.ASATE, MOBILE.RANDOM, MOBILE.NAK, MOBILE.TRICO, MOBILE.MAGE, MOBILE.TURTLE, MOBILE.BOOMER, MOBILE.GRUB, MOBILE.RAON, MOBILE.KALSIDDON, MOBILE.DRAGON2];
+      , SELECTABLE_MOBILES = [MOBILE.YETI];
     function GetMobileAfter(a) {
         return SELECTABLE_MOBILES[(SELECTABLE_MOBILES.indexOf(a) + 1) % SELECTABLE_MOBILES.length]
     }
     var BULLETS = {
-        ARMOR1: 0,
-        ARMOR2: 1,
-        ARMORSS: 2,
-        ARMORSS2: 3,
+        YETI1: 0,
+        YETI2: 1,
+        YETISS: 2,
+        YETISS2: 3,
         ICE1: 4,
         ICE2: 5,
         ICESS: 6,
@@ -20267,9 +20244,9 @@
         KALSIDDONSS_TINY: 78
     }
       , EXPLODE = {
-        ARMOR1: 0,
-        ARMOR2: 1,
-        ARMORSS: 2,
+        YETI1: 0,
+        YETI2: 1,
+        YETISS: 2,
         ICE1: 3,
         ICE2: 4,
         ICESS: 5,
@@ -20328,13 +20305,13 @@
       , EXPLODES = []
       , BULLET = [];
     function InitGlobals() {
-        MOBILES[MOBILE.ARMOR] = {
-            name: "Armor",
-            epa: EPA.armor,
+        MOBILES[MOBILE.YETI] = {
+            name: "YETI",
+            epa: EPA.YETI,
             move: "1move",
             nmove: "1nmove",
-            explodes: [EXPLODE.ARMOR1, EXPLODE.ARMOR2, EXPLODE.ARMORSS],
-            bullets: [BULLETS.ARMOR1, BULLETS.ARMOR2, BULLETS.ARMORSS, BULLETS.ARMORSS2]
+            explodes: [EXPLODE.YETI1, EXPLODE.YETI2, EXPLODE.YETISS],
+            bullets: [BULLETS.YETI1, BULLETS.YETI2, BULLETS.YETISS, BULLETS.YETISS2]
         };
         MOBILES[MOBILE.MAGE] = {
             name: "Mage",
@@ -20526,23 +20503,23 @@
             explodes: [EXPLODE.LIGHTINING12_JD1],
             bullets: [BULLETS.KALSIDDON1, BULLETS.KALSIDDON1_TINY, BULLETS.KALSIDDON2, BULLETS.KALSIDDON2_TINY, BULLETS.KALSIDDONSS, BULLETS.KALSIDDONSS_MED, BULLETS.KALSIDDONSS_TINY]
         };
-        BULLET[BULLETS.ARMOR1] = {
-            file: "armor1",
-            sound: AUDIO_ARMOR_FIRE,
+        BULLET[BULLETS.YETI1] = {
+            file: "YETI1",
+            sound: AUDIO_YETI_FIRE,
             graphics: [[26, 17, 12, 8], 1, [26, 19, 12, 9], [26, 18, 12, 9], [26, 17, 12, 8]]
         };
-        BULLET[BULLETS.ARMOR2] = {
-            file: "armor2",
-            sound: AUDIO_ARMOR_FIRE2,
+        BULLET[BULLETS.YETI2] = {
+            file: "YETI2",
+            sound: AUDIO_YETI_FIRE2,
             graphics: [[39, 18, 27, 9], [44, 19, 32, 8], [42, 17, 30, 8], [43, 17, 31, 8], [39, 17, 27, 8]]
         };
-        BULLET[BULLETS.ARMORSS] = {
-            file: "armorSS",
-            sound: AUDIO_ARMOR_FIRE2,
+        BULLET[BULLETS.YETISS] = {
+            file: "YETISS",
+            sound: AUDIO_YETI_FIRE2,
             graphics: [[29, 15, 18, 7], 1, [29, 16, 18, 7], 4, [29, 15, 18, 7], 2]
         };
-        BULLET[BULLETS.ARMORSS2] = {
-            file: "armorSSopen",
+        BULLET[BULLETS.YETISS2] = {
+            file: "YETISSopen",
             graphics: [[62, 21, 51, 9], [62, 27, 51, 12], [62, 31, 51, 14], [62, 26, 51, 12], [62, 21, 51, 9], [62, 20, 51, 9], [62, 27, 51, 12], [62, 31, 51, 14]]
         };
         BULLET[BULLETS.ICE1] = {
@@ -20582,7 +20559,7 @@
         };
         BULLET[BULLETS.TELEPORT] = {
             file: "teleport",
-            sound: AUDIO_ARMOR_FIRE,
+            sound: AUDIO_YETI_FIRE,
             graphics: [[31, 24, 18, 12], [34, 22, 21, 12], 1, [35, 24, 22, 13], [38, 24, 25, 13], [37, 23, 24, 12], [38, 23, 25, 12], [34, 24, 21, 13], [38, 24, 25, 12], [33, 26, 20, 13], [36, 25, 23, 13], [31, 24, 18, 12]]
         };
         BULLET[BULLETS.LIGHTNING12] = {
@@ -20682,7 +20659,7 @@
         };
         BULLET[BULLETS.TEST] = {
             file: "test",
-            sound: AUDIO_ARMOR_FIRE,
+            sound: AUDIO_YETI_FIRE,
             graphics: [[20, 20, 10, 9], [22, 22, 11, 10], [21, 20, 10, 9], [19, 19, 9, 9], [21, 21, 10, 10], [20, 19, 10, 8], [22, 22, 11, 10], [18, 18, 9, 8], [20, 21, 10, 9], [23, 22, 11, 11], [19, 19, 9, 9], [22, 22, 11, 10], [22, 22, 11, 11], [18, 18, 9, 9], [20, 21, 10, 10], [21, 21, 11, 10], [21, 20, 10, 9], [22, 21, 11, 10], [19, 18, 10, 8], [16, 17, 8, 7]]
         };
         BULLET[BULLETS.FOX1] = {
@@ -20716,17 +20693,17 @@
             graphics: [[27, 20, 10, 9]]
         }) : g_is_halloween ? (BULLET[BULLETS.DRAGON1] = {
             file: "pumpkin2",
-            sound: AUDIO_ARMOR_FIRE,
+            sound: AUDIO_YETI_FIRE,
             graphics: [[23, 23, 11, 11]]
         },
         BULLET[BULLETS.DRAGON2] = {
             file: "pumpkin2",
-            sound: AUDIO_ARMOR_FIRE,
+            sound: AUDIO_YETI_FIRE,
             graphics: [[23, 23, 11, 11]]
         },
         BULLET[BULLETS.DRAGONSS] = {
             file: "pumpkin2",
-            sound: AUDIO_ARMOR_FIRE,
+            sound: AUDIO_YETI_FIRE,
             graphics: [[23, 23, 11, 11]]
         }) : (BULLET[BULLETS.DRAGON1] = {
             file: "dragon1",
@@ -20986,19 +20963,19 @@
             file: "kalsiddonSSc",
             graphics: [[34, 14, 26, 7], [36, 15, 28, 8], [38, 17, 30, 10], [38, 18, 30, 10], 2, [27, 18, 19, 10], [27, 14, 19, 6], [34, 14, 26, 6], [38, 13, 30, 6]]
         };
-        EXPLODES[EXPLODE.ARMOR1] = {
-            file: "armor1",
-            sound: AUDIO_ARMOR_BLAST,
+        EXPLODES[EXPLODE.YETI1] = {
+            file: "YETI1",
+            sound: AUDIO_YETI_BLAST,
             graphics: [[31, 29, 17, 9], [68, 78, 37, 34], [98, 111, 52, 54], [111, 124, 57, 64], [128, 125, 64, 64], [128, 128, 64, 64], 14]
         };
-        EXPLODES[EXPLODE.ARMOR2] = {
-            file: "armor2",
-            sound: AUDIO_ARMOR_BLAST,
+        EXPLODES[EXPLODE.YETI2] = {
+            file: "YETI2",
+            sound: AUDIO_YETI_BLAST,
             graphics: [[20, 20, 10, 10], [46, 52, 23, 26], [66, 74, 33, 37], [74, 84, 34, 42], [89, 90, 43, 45], [90, 95, 43, 49], [93, 98, 45, 51], [99, 103, 48, 52], [101, 106, 50, 53], [103, 109, 51, 54], [105, 112, 52, 56], [107, 114, 53, 57], [110, 117, 54, 58], [113, 119, 56, 58], [113, 121, 56, 59], [115, 122, 57, 59], [117, 124, 58, 59], 1, [117, 115, 58, 59], [106, 100, 47, 46]]
         };
-        EXPLODES[EXPLODE.ARMORSS] = {
-            file: "armorSS",
-            sound: AUDIO_ARMOR_BLAST,
+        EXPLODES[EXPLODE.YETISS] = {
+            file: "YETISS",
+            sound: AUDIO_YETI_BLAST,
             graphics: [[128, 123, 64, 60], [128, 127, 64, 64], [128, 125, 64, 62], [128, 127, 64, 64], 25, [128, 90, 64, 27]]
         };
         EXPLODES[EXPLODE.ICE1] = {
@@ -21019,7 +20996,7 @@
         };
         EXPLODES[EXPLODE.ADUKA1_THOR] = {
             file: "aduka1-thor",
-            sound: AUDIO_ARMOR_BLAST,
+            sound: AUDIO_YETI_BLAST,
             graphics: [[18, 18, 9, 9], [60, 60, 30, 30], [48, 47, 24, 23], [63, 67, 31, 31], [78, 80, 38, 39], [93, 96, 46, 47], [104, 96, 52, 47], [114, 96, 57, 47], [124, 96, 62, 47], [128, 96, 61, 47], [128, 92, 57, 48], [76, 84, 34, 40], [79, 76, 35, 40], [82, 78, 37, 44], [81, 79, 36, 45], [76, 79, 38, 46]]
         };
         EXPLODES[EXPLODE.TELEPORT] = {
@@ -21080,17 +21057,17 @@
         };
         EXPLODES[EXPLODE.TEST] = {
             file: "test",
-            sound: AUDIO_ARMOR_BLAST,
+            sound: AUDIO_YETI_BLAST,
             graphics: [[85, 76, 44, 35], [71, 63, 36, 28], [64, 58, 34, 26], [59, 71, 29, 35], [96, 99, 47, 48], [103, 118, 51, 60], [116, 126, 58, 63], [116, 119, 57, 58], [118, 116, 59, 58], [128, 128, 64, 64], 1]
         };
         EXPLODES[EXPLODE.FOX1] = {
             file: "fox1",
-            sound: AUDIO_ARMOR_BLAST,
+            sound: AUDIO_YETI_BLAST,
             graphics: [[85, 76, 44, 35], [71, 63, 36, 28], [64, 58, 34, 26], [59, 71, 29, 35], [96, 99, 47, 48], [103, 118, 51, 60], [116, 126, 58, 63], [116, 119, 57, 58], [118, 116, 59, 58], [128, 128, 64, 64], 1]
         };
         EXPLODES[EXPLODE.FOX2] = {
             file: "fox2",
-            sound: AUDIO_ARMOR_BLAST,
+            sound: AUDIO_YETI_BLAST,
             graphics: [[85, 76, 44, 35], [71, 63, 36, 28], [64, 58, 34, 26], [59, 71, 29, 35], [96, 99, 47, 48], [103, 118, 51, 60], [116, 126, 58, 63], [116, 119, 57, 58], [118, 116, 59, 58], [128, 128, 64, 64], 1]
         };
         EXPLODES[EXPLODE.FOXSS] = {
@@ -21100,18 +21077,18 @@
             graphics: [[256, 252, 128, 128], 28, [252, 252, 128, 128]]
         };
         EXPLODES[EXPLODE.DRAGON1] = {
-            file: "armor1",
-            sound: AUDIO_ARMOR_BLAST,
+            file: "YETI1",
+            sound: AUDIO_YETI_BLAST,
             graphics: [[31, 29, 17, 9], [68, 78, 37, 34], [98, 111, 52, 54], [111, 124, 57, 64], [128, 125, 64, 64], [128, 128, 64, 64], 14]
         };
         EXPLODES[EXPLODE.DRAGON2] = {
-            file: "armor2",
-            sound: AUDIO_ARMOR_BLAST,
+            file: "YETI2",
+            sound: AUDIO_YETI_BLAST,
             graphics: [[20, 20, 10, 10], [46, 52, 23, 26], [66, 74, 33, 37], [74, 84, 34, 42], [89, 90, 43, 45], [90, 95, 43, 49], [93, 98, 45, 51], [99, 103, 48, 52], [101, 106, 50, 53], [103, 109, 51, 54], [105, 112, 52, 56], [107, 114, 53, 57], [110, 117, 54, 58], [113, 119, 56, 58], [113, 121, 56, 59], [115, 122, 57, 59], [117, 124, 58, 59], 1, [117, 115, 58, 59], [106, 100, 47, 46]]
         };
         EXPLODES[EXPLODE.DRAGONSS] = {
-            file: "armorSS",
-            sound: AUDIO_ARMOR_BLAST,
+            file: "YETISS",
+            sound: AUDIO_YETI_BLAST,
             graphics: [[128, 123, 64, 60], [128, 127, 64, 64], [128, 125, 64, 62], [128, 127, 64, 64], 25, [128, 90, 64, 27]]
         };
         EXPLODES[EXPLODE.NAK1] = {
@@ -21130,17 +21107,17 @@
             graphics: [[85, 76, 44, 35], [71, 63, 36, 28], [64, 58, 34, 26], [59, 71, 29, 35], [96, 99, 47, 48], [103, 118, 51, 60], [116, 126, 58, 63], [116, 119, 57, 58], [118, 116, 59, 58], [128, 128, 64, 64], 1]
         };
         EXPLODES[EXPLODE.TRICO1] = {
-            file: "armor1",
+            file: "YETI1",
             sound: AUDIO_DINO_BLAST,
             graphics: [[31, 29, 17, 9], [68, 78, 37, 34], [98, 111, 52, 54], [111, 124, 57, 64], [128, 125, 64, 64], [128, 128, 64, 64], 14]
         };
         EXPLODES[EXPLODE.TRICO2] = {
-            file: "armor1",
+            file: "YETI1",
             sound: AUDIO_DINO_BLAST,
             graphics: [[31, 29, 17, 9], [68, 78, 37, 34], [98, 111, 52, 54], [111, 124, 57, 64], [128, 125, 64, 64], [128, 128, 64, 64], 14]
         };
         EXPLODES[EXPLODE.TRICOSS] = {
-            file: "armorSS",
+            file: "YETISS",
             sound: AUDIO_DINO_BLAST,
             graphics: [[128, 123, 64, 60], [128, 127, 64, 64], [128, 125, 64, 62], [128, 127, 64, 64], 25, [128, 90, 64, 27]]
         };
@@ -22720,15 +22697,15 @@
           , b = localStorage.m9
           , c = 14 * TIME_DAY;
         !b || b < a - c || b > a ? setTimeout(function() {
-            var b = $("#LoadingS").text("Starting Dragonbound... 3")
+            var b = $("#LoadingS").text("Starting Frost-Bite... 3")
               , c = setTimeout(function() {
-                return b.text("Starting Dragonbound... 2")
+                return b.text("Starting Frost-Bite... 2")
             }, 1E3)
               , f = setTimeout(function() {
-                return b.text("Starting Dragonbound... 1")
+                return b.text("Starting Frost-Bite... 1")
             }, 2E3)
               , h = setTimeout(function() {
-                return b.text("Starting Dragonbound...")
+                return b.text("Starting Frost-Bite...")
             }, 3E3);
             SpeedTest(function(b, d) {
                 clearTimeout(c);
@@ -35219,7 +35196,7 @@
             }), $("body").css({
                 "background-image": c ==
                     SERVER_SUB_TYPE_COUPLES ? "url(/static/images/themes/love_bg.jpg)" : ""
-            }), void 0 == a.lobbyMobile && (a.lobbyMobile = MOBILE.ARMOR), $("#dialog_join_room_div .AlertBoxTitle").html(l.t("Join Team")), c == SERVER_SUB_TYPE_COUPLES ? ($("#buttonCreateTeam .Text").html('<img src="/static/images/hearts.png"> ' + l.t("Create Couple")), $("#buttonJoinTeam .Text").html('<img src="/static/images/hearts.png"> ' + l.t("Join Couple")), $("#room_auto_match_btn2").show(), $("#buttonCreateTeam,#buttonJoinTeam,#buttonStart1v1").addClass("LoveServer")) :
+            }), void 0 == a.lobbyMobile && (a.lobbyMobile = MOBILE.YETI), $("#dialog_join_room_div .AlertBoxTitle").html(l.t("Join Team")), c == SERVER_SUB_TYPE_COUPLES ? ($("#buttonCreateTeam .Text").html('<img src="/static/images/hearts.png"> ' + l.t("Create Couple")), $("#buttonJoinTeam .Text").html('<img src="/static/images/hearts.png"> ' + l.t("Join Couple")), $("#room_auto_match_btn2").show(), $("#buttonCreateTeam,#buttonJoinTeam,#buttonStart1v1").addClass("LoveServer")) :
             ($("#buttonStart1v1 .Text").html(l.t("Start 1v1 Game")), $("#buttonCreateTeam .Text").html(l.t("Create Team")), $("#buttonJoinTeam .Text").html(l.t("Join Team")), $("#room_auto_match_btn2").hide(), $("#buttonCreateTeam,#buttonJoinTeam,#buttonStart1v1").removeClass("LoveServer")), 
             $("#RoomOptionsS1, #RoomOptionsTele, #RoomOptionsDualP").removeClass("grayscale"), g_tabsMenu.SetLobbyButtonsToItems(!1)) : (dragonTheme.ReTheme(), 
             $("#buttonQuickJoin,#buttonCreateRoom,#buttonJoin,#buttonRoomsListUp,#buttonRoomsListDown,#filter_all,#filter_waiting,#filter_normal,#filter_boss,#filter_same,#filter_score,#filter_friends,#filter_guild,.room,#join_room2,#join_password_input").show(),
