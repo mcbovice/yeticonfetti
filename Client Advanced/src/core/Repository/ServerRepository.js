@@ -1,8 +1,9 @@
-var Repository = require("../Lib/Repository/Repository");
+var DataBaseMySQL = require("../DB/DataBaseMySQL");
 
-class ServerRepository extends Repository{
+class ServerRepository{
     constructor(){
-        super("server");
+        this.tableName = "server";
+        this.db = new DataBaseMySQL();
     }
 }
 
