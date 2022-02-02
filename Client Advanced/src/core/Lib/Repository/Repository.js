@@ -1,3 +1,5 @@
+var TableNameException = require("../../Exception/TableNameException");
+
 class Repository{
     constructor(tableName = ""){
         this.tableName = tableName;
@@ -6,7 +8,20 @@ class Repository{
     }
 
     #_init(){
+        this.#_checkTableName();
+    }
 
+    #_checkTableName(){
+        if(this.#_existTableName()) this.tableName = this.tableName.toLowerCase();
+        else this.#_errorToExistTableName();
+    }
+
+    #_errorToExistTableName(){
+        new TableNameException();
+    }
+
+    #_existTableName(){
+        return this.tableName !== "";
     }
 }
 
