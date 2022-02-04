@@ -506,18 +506,18 @@ router.post('/ajaxRegister', function (req, res) {
     if(isNaN(password) === false){
         res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Contraseña
+                <li>Password
                     <ul><li>
-                    La contraseña no puede ser totalmente númerica.
+                    Your password must contain a combination of letters and numbers!
                     </li></ul></li></ul>`));
         return null;
     }
     if(user === password){
         res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Nombre
+                <li>Account Name
                     <ul><li>
-                    El nombre no puede ser igual a la contraseña.
+                    Your username cannot match your password!
                     </li></ul></li></ul>`));
         return null;
     }
@@ -531,27 +531,27 @@ router.post('/ajaxRegister', function (req, res) {
     else {
         res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Género
+                <li>Gender
                     <ul><li>
-                    Al parecer no has escogido ningún género.
+                    Please choose a gender!
                     </li></ul></li></ul>`));
         return null;
     }
     if (Buffer.byteLength(user, 'utf8') < 2 || Buffer.byteLength(user, 'utf8') > 15) {
         res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Nombre
+                <li>Account Name
                     <ul><li>
-                    El nombre debe de tener como mínimo 2 letras.
+                    Your account name must have at least 2 letters!
                     </li></ul></li></ul>`));
         return null;
     }
     if(Buffer.byteLength(password, 'utf8') < 4 || Buffer.byteLength(password, 'utf8') > 100) {
         res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Contraseña
+                <li>Password
                     <ul><li>
-                    La contraseña es muy corta. Debe de tener como mínimo 4 letras.
+                    The password you have entered is too short. It must contain atleast 4 letters.
                     </li></ul></li></ul>`));
         return null;
     }
@@ -632,27 +632,27 @@ router.post('/ajaxRegister', function (req, res) {
                                             .catch(function (err) {
                                                 res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Nombre
+                <li>Account Name
                     <ul><li>
-                    El nombre de usuario ya existe. Pruebe con otro usuario.
+                    Account name already exists. Please try another name.
                     </li></ul></li></ul>`));
         return null;
                                             });
                                     }).catch(function (err) {
                                         res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Nombre
+                <li>Account Name
                     <ul><li>
-                    El nombre de usuario ya existe. Pruebe con otro usuario.
+                    Account name already exists. Please try another name.
                     </li></ul></li></ul>`));
         return null;
                                     });
                             }).catch(function (err) {
                                 res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Nombre
+                <li>Account Name
                     <ul><li>
-                    El nombre de usuario ya existe. Pruebe con otro usuario.
+                    Account name already exists. Please try another name.
                     </li></ul></li></ul>`));
         return null;
                             });
@@ -660,9 +660,9 @@ router.post('/ajaxRegister', function (req, res) {
                     .catch(function (err) {
                         res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Nombre
+                <li>Account Name
                     <ul><li>
-                    El nombre de usuario ya existe. Pruebe con otro usuario.
+                    Account name already exists. Please try another name.
                     </li></ul></li></ul>`));
         return null;
                     });
@@ -670,9 +670,9 @@ router.post('/ajaxRegister', function (req, res) {
             .catch(function (err) {
                 res.send(JSON.stringify(`
             <ul class='errorlist'>
-                <li>Nombre
+                <li>Account Name
                     <ul><li>
-                    El nombre de usuario ya existe. Pruebe con otro usuario.
+                    Account name already exists. Please try another name.
                     </li></ul></li></ul>`));
         return null;
             });
