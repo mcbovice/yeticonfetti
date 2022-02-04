@@ -7,7 +7,7 @@ const defaultMessage = {
     type: ChatTypes.TYPE.BUGLE
 }
 const welcomeMessage = {
-    message: 'Welcome to the Yeti Confetti Club! Enjoy the Arctic!',
+    message: 'Welcome to the FrostBite!! State of the art Play-To-Earn 2D Shooter!',
     player_name: '',
     type: ChatTypes.TYPE.BUGLE
 }
@@ -19,7 +19,7 @@ module.exports = {
     servers: [
         {
             id              : 1,
-            name            : "High Ranks",
+            name            : "The Arctic",
             type            : ServerTypes.SERVER_NORMAL,
             port            : 9001,
             playerOnline    : 0,
@@ -32,7 +32,7 @@ module.exports = {
         },
         {
             id              : 2,
-            name            : "Mid Ranks",
+            name            : "Ice Bar",
             type            : ServerTypes.SERVER_NORMAL,
             port            : 9002,
             playerOnline    : 0,
@@ -44,7 +44,7 @@ module.exports = {
         },
         {
             id              : 3,
-            name            : "Beginners",
+            name            : "Igloo",
             type            : ServerTypes.SERVER_NORMAL,
             port            : 9003,
             playerOnline    : 0,
