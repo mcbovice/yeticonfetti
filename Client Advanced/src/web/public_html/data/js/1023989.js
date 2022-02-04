@@ -31742,7 +31742,7 @@
               , c = a.server + 1
               , f = a.myPlayerInfo.room_number
               , h = a.my_room_pw || ""
-              , c = l.t("Dragonbound Invite") + ": " + l.t("Server") + " " + c + " - " + l.t("Room") + " " + f + (h ? " - " + l.t("Password") + ": " + h : "")
+              , c = l.t("FrostBite Invite") + ": " + l.t("Server") + " " + c + " - " + l.t("Room") + " " + f + (h ? " - " + l.t("Password") + ": " + h : "")
               , b = b + "] " + l.t("Click here to enter my room");
             FacebookShare(location.href, "http://localhost/static/images/icon_invite.png", "www.localhost", c, b, function(a) {
                 a ? alertify.success(l.t("Invitation posted") + " :)") : alertify.error(l.t("Invitation canceled") + "...")
@@ -32712,7 +32712,7 @@
         $("#ranking_btn_type3").addClass("selected");
         if (a.friends)
             if (0 == a.friends.length)
-                $("#ranking_data").html("You have no Dragonbound friends yet. Add some.");
+                $("#ranking_data").html("You have no FrostBite friends yet. Add some.");
             else {
                 b > a.friends.length - RANKING_PAGE_SIZE && (b = a.friends.length - RANKING_PAGE_SIZE);
                 1 > b && (b = 1);
@@ -33817,7 +33817,7 @@
             }, 1E3)
         }, 1E3)
     }
-    ;var TAB_ALL = 0, TAB_ITEMS = 3, TAB_FRIENDS = 1, TAB_GUILD = 2, GUILD_JOB_MEMBER = 0, GUILD_JOB_LEADER = 1, GUILD_JOB_SEMI_LEADER = 2, g_rankings_button_clicked, ROOM_NAMES = "Hello;My Room;Dragonbound;Welcome;Let's Rock!;Come to play;A Game!;More gold;And if we play?;Join the room".split(";"), ROOM_NAMES_ES = "Hola;Mi Sala;Dragonbound;Bienvenido;Ven a jugar;A Jugar!;M\u00e1s oro;Y si jugamos?;\u00danete a la sala!".split(";"), g_privateChat;
+    ;var TAB_ALL = 0, TAB_ITEMS = 3, TAB_FRIENDS = 1, TAB_GUILD = 2, GUILD_JOB_MEMBER = 0, GUILD_JOB_LEADER = 1, GUILD_JOB_SEMI_LEADER = 2, g_rankings_button_clicked, ROOM_NAMES = "Hello;My Room;FrostBite;Welcome;Let's Rock!;Come to play;A Game!;More gold;And if we play?;Join the room".split(";"), ROOM_NAMES_ES = "Hola;Mi Sala;FrostBite;Bienvenido;Ven a jugar;A Jugar!;M\u00e1s oro;Y si jugamos?;\u00danete a la sala!".split(";"), g_privateChat;
     function ChannelGUI(a) {
         DragonScroll("#channel");
         DragonScroll("#playersList");
@@ -34662,7 +34662,7 @@
             var a = this;
             this.checked ? window.Notification && Notification.requestPermission(function(b) {
                 "granted" === b ? (SetValue("notifyOnPM", OPTIONS.notifyOnPM = 1),
-                new Notification("Dragonbound notifications on private messages enabled :)")) : a.checked = !1
+                new Notification("FrostBite notifications on private messages enabled :)")) : a.checked = !1
             }) : SetValue("notifyOnPM", OPTIONS.notifyOnPM = 0)
         })
     }
