@@ -22697,15 +22697,15 @@
           , b = localStorage.m9
           , c = 14 * TIME_DAY;
         !b || b < a - c || b > a ? setTimeout(function() {
-            var b = $("#LoadingS").text("Starting Dragonbound... 3")
+            var b = $("#LoadingS").text("Starting FrostBite... 3")
               , c = setTimeout(function() {
-                return b.text("Starting Dragonbound... 2")
+                return b.text("Starting FrostBite... 2")
             }, 1E3)
               , f = setTimeout(function() {
-                return b.text("Starting Dragonbound... 1")
+                return b.text("Starting FrostBite... 1")
             }, 2E3)
               , h = setTimeout(function() {
-                return b.text("Starting Dragonbound...")
+                return b.text("Starting FrostBite...")
             }, 3E3);
             SpeedTest(function(b, d) {
                 clearTimeout(c);
