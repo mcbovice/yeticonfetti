@@ -785,9 +785,9 @@ Types.MOBILES = [{
     bx: 0, // viento '0'
     by: 398, // sin determinacion
     aim: [
-        [40, 42],
-        [40, 42],
-        [40, 42],
+        [80, 52],
+        [80, 52],
+        [80, 52],
     ]
     //{"a":73.5,"b":0.74,"name":"Armor","max":55,"min":10,"mobilename":"armor","aim":[[52,33],[52,33],[52,33]]}
 }, {
