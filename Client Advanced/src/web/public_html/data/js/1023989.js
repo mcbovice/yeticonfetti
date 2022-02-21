@@ -38440,7 +38440,6 @@
         this.is_special = !1;
         this.pos_x = c;
         this.pos_y = d;
-        this.scale.y = this.scale.x = 0.50;
         this.z = this.z_index = k;
         this.change_z_when_special = p;
         this.anchor_x = this.anchor_y = this.total_elapsed_time = this.current_frame = 0;
