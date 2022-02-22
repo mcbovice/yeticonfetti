@@ -38450,6 +38450,7 @@
                 g: b
             }
         };
+        this.scale.x = this.scale.y = 1;
         -1 == a.indexOf(":") && (a = STATIC_DIR + "images/" + a);
         this.filename = a;
         this.textures = {};
