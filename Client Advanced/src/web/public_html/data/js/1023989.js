@@ -38158,16 +38158,16 @@
 
         // dev
 
-        // this.pointerRed = new PIXI.Graphics,
-        // this.pointerRed.beginFill(0xff0000),
-        // this.pointerRed.lineStyle(2, 0xFF0000),
-        // this.pointerRed.drawRect(-2.5, -5, 5, 5),
-        // this.pointerRed.z = 5,
-        // this.mobileSquare = new PIXI.Graphics,
-        // this.mobileSquare.beginFill(0, 0.1),
-        // this.mobileSquare.lineStyle(1, 0x000000),
-        // this.mobileSquare.drawRect(-(b.digW / 2), -b.digH, b.digW, b.digH),
-        // this.mobileSquare.z = 4,
+        this.pointerRed = new PIXI.Graphics,
+        this.pointerRed.beginFill(0xff0000),
+        this.pointerRed.lineStyle(2, 0xFF0000),
+        this.pointerRed.drawRect(-2.5, -5, 5, 5),
+        this.pointerRed.z = 5,
+        this.mobileSquare = new PIXI.Graphics,
+        this.mobileSquare.beginFill(0, 0.1),
+        this.mobileSquare.lineStyle(1, 0x000000),
+        this.mobileSquare.drawRect(-(b.digW / 2), -b.digH, b.digW, b.digH),
+        this.mobileSquare.z = 4,
 
 
 
