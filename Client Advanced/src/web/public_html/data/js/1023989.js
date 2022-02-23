@@ -38434,8 +38434,6 @@
     };
     function AnimatedSprite(a, b, c, d, e, f, h, k, m, n, p, q, r, t) {
         var u = this;
-        this.scale.x = 2;
-        this.scale.y = 2;
         this.loop_type = h;
         this.is_flip = f;
         this.frame_time = 1E3 / e;
