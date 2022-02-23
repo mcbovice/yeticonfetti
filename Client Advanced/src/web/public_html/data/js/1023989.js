@@ -38535,8 +38535,8 @@
         this.position.x = this.pos_x - d;
         this.position.y = this.pos_y - e;
         this.scale.x = this.is_flip ? -1 : 1;
-        this.is_half_size && (this.scale.x *= 1,
-        this.scale.y = 1);
+        this.is_half_size && (this.scale.x *= 0.35,
+        this.scale.y = 0.35);
         this.holdSpotX = f;
         this.holdSpotY = h;
         if (this.change_z_when_special && (c = this.is_special ? this.z_index + this.change_z_when_special : this.z_index,
