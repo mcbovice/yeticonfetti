@@ -24660,7 +24660,7 @@
         CopyMissingProps(ThemeClassic, ThemeClassicHD);
         var ThemeDB = {
             lobby_bg: ".",
-            room_bg: ".",
+            room_bg: "/static/images/themes/dragonbound/room_bgpng.png",
             shop_bg: ".",
             ranks: "",
             lobby_stuff: "/static/images/themes/dragonbound/lobby_stuff.png?2",
