@@ -38434,6 +38434,8 @@
     };
     function AnimatedSprite(a, b, c, d, e, f, h, k, m, n, p, q, r, t) {
         var u = this;
+        this.scale.x = 0.35;
+        this.scale.y = 0.35;
         this.loop_type = h;
         this.is_flip = f;
         this.frame_time = 1E3 / e;
@@ -38451,8 +38453,6 @@
             }
         };
         -1 == a.indexOf(":") && (a = STATIC_DIR + "images/" + a);
-        this.scale.x = 0.35;
-        this.scale.y = 0.35;
         this.filename = a;
         this.textures = {};
         this.mainTexture = GetTexture(a);
