@@ -38450,7 +38450,6 @@
                 g: b
             }
         };
-        this.scale.x = this.scale.y = 1;
         -1 == a.indexOf(":") && (a = STATIC_DIR + "images/" + a);
         this.filename = a;
         this.textures = {};
@@ -38464,6 +38463,8 @@
         PIXI.Sprite.call(this, this.mainTexture);
         this.set_frame(0);
         m && DragonClock.Add(this)
+        this.scale.x = 1;
+        this.scale.y = 1;
     }
     AnimatedSprite.constructor = AnimatedSprite;
     AnimatedSprite.prototype = Object.create(PIXI.Sprite.prototype);
