@@ -773,8 +773,8 @@ Types.MOBILES = [{
     file: "Armor",
     player_x: 17,
     player_y: -28,
-    explodes: [Types.EXPLODE.ARMOR1, Types.EXPLODE.ARMOR2, Types.EXPLODE.ARMORSS],
-    bullets: [Types.BULLETS.ARMOR1, Types.BULLETS.ARMOR2, Types.BULLETS.ARMORSS, Types.ARMORSS2],
+    explodes: [Types.EXPLODE.ICE1, Types.EXPLODE.ICE2, Types.EXPLODE.ICESS],
+    bullets: [Types.BULLETS.ICE1, Types.BULLETS.ICE2, Types.BULLETS.ICESS],
     graphics: [
         [49, 43, 24, 39]
     ],
