@@ -20310,8 +20310,8 @@
             epa: EPA.YETI,
             move: "1move",
             nmove: "1nmove",
-            explodes: [EXPLODE.YETI1, EXPLODE.YETI2, EXPLODE.YETISS],
-            bullets: [BULLETS.YETI1, BULLETS.YETI2, BULLETS.YETISS, BULLETS.YETISS2]
+            explodes: [EXPLODE.ICE1, EXPLODE.ICE2, EXPLODE.ICESS],
+            bullets: [BULLETS.ICE1, BULLETS.ICE2, BULLETS.ICESS]
         };
         MOBILES[MOBILE.MAGE] = {
             name: "Mage",
